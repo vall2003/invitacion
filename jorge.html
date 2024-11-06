@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación Coqueta a Comer Salchipapas</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fce4ec;
+            color: #ff4081;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+        button {
+            background-color: #ff4081;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            margin: 10px;
+            border-radius: 25px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #f50057;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>¿Te gustaría compartir unas deliciosas salchipapas conmigo? 😘</h1>
+    <p>Sabes que contigo todo sabe mejor, ¡incluso las salchipapas! 💖</p>
+
+    <button onclick="respuesta('Sí')">¡Sí, amor! ¡Quiero salchipapas contigo! 😍</button>
+    <button onclick="respuesta('No')">Ups, mejor no... pero ¿cuándo lo haremos? 😉</button>
+
+    <script>
+        function respuesta(opcion) {
+            if (opcion === 'Sí') {
+                alert("¡Perfecto, amor! 🥰 ¡Nos vemos el miércoles para disfrutar esas salchipapas y pasarla increíble! Te extraño mucho 😘");
+            } else {
+                alert("No te preocupes, mi vida. 😘 ¡Te invitaré la próxima vez! Nos vemos el miércoles, te extraño. 😚");
+            }
+        }
+    </script>
+
+</body>
+</html>
